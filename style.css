@@ -1,0 +1,503 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mobile{
+    display: block;
+}
+.tablet {
+    display: none;
+}
+
+.dekstop {
+    display: none;
+}
+
+body {
+    font-family: 'Barlow', sans-serif;
+    height: 100vh;
+    background-color: #F2F2F2;
+    margin-left: 24px;
+    margin-top: 27px;
+    color: #162542;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.button-1 {
+    display: block;
+    position: absolute;
+    margin-top: -43px;
+    margin-left: 176px;
+    width: 165px;
+    height: 48px;
+    border-radius: 8px;
+    background-color: #E8EFF2;
+    border: none;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 700;
+
+}
+
+h1 {
+    margin-top: 64px;
+    width: 327px;
+    height: 96px;
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: 900;
+
+}
+
+.improve {
+    margin-top: 32px;
+    width: 327px;
+    height: 78px;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    color: #7B8BAD;
+
+}
+
+.button-2 {
+    display: block;
+    position: absolute;
+    margin-top: 43px;
+    width: 165px;
+    height: 48px;
+    border-radius: 8px;
+    background-color: #F16718;
+    border: none;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 700;
+    color: white;
+}
+
+.realise {
+    margin-top: 53px;
+    margin-left: 206px;
+    width: 127px;
+    height: 26px;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 700;
+    color: #7B8BAD;
+
+}
+
+.keyboard {
+    width: 372px;
+    height: 331px;
+    border-radius: 20px;
+    margin-top: 75px;
+
+}
+
+.phone-keyboard {
+    display: block;
+    position: absolute;
+    width: 130px;
+    height: 195px;
+    margin-left: -44px;
+    margin-top: 32px;
+    border-radius: 20px;
+    z-index: 1;
+
+}
+
+.overlay {
+    position: absolute;
+    border-radius: 20px;
+    border: none;
+    width: 130px;
+    height: 195px;
+    margin-left: -44px;
+    margin-top: 32px;
+    background-color: #F16718;
+    opacity: 0.75;
+    z-index: 2;
+}
+
+.glass-keyboard {
+    display: block;
+    position: absolute;
+    width: 220px;
+    height: 193px;
+    border-radius: 20px;
+    margin-top: 31px;
+    margin-left: 108px;
+}
+
+h2 {
+    margin-top: 300px;
+    width: 255px;
+    height: 108px;
+    font-size: 32px;
+    line-height: 36px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.typemaster {
+    margin-top: 24px;
+    width: 327px;
+    height: 104px;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    color: #7B8BAD;
+
+}
+
+.img-box {
+    background-color: #F16718;
+    width: 65px;
+    height: 65px;
+    margin-top: 111px;
+    margin-left: 130px;
+    border-radius: 20px;
+
+}
+
+.img-icon1 {
+    position: relative;
+    margin-left: 20px;
+    margin-top: 21px;                          
+}
+.img-icon2 {
+    position: relative;
+    margin-left: 24px;
+    margin-top: 18px;                          
+}
+.img-icon3 {
+    position: relative;
+    margin-left: 18px;
+    margin-top: 22px;                          
+}
+.img-icon4 {
+    position: relative;
+    margin-left: 18px;
+    margin-top: 15px;                          
+}
+h4 {
+    margin-top: 58px;
+    width: 327px;
+    height: 56px;
+    font-size: 32px;
+    line-height: 36px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+.box-text {
+    margin-top: 40px;
+    width: 327px;
+    height: 104px;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    color: #7B8BAD;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+h5 {
+    margin-top: 100px;
+    text-align: center;
+    color: #7B8BAD;
+    font-size: 16px;
+    font-weight: 500;
+    height: 75px;
+}
+
+
+
+
+
+
+@media screen and (min-width:768px) {
+
+    .mobile{
+        display: none;
+    }
+    .dekstop{
+        display: none;
+    }
+    .tablet{
+        display: block;
+    }
+    
+    body {
+        margin-top: 50px;
+        margin-left: 75px;
+        display: flex;
+        flex-flow: column wrap;
+        
+
+    }
+
+    .logo {
+        display: block;
+        position: absolute;
+    }
+
+    .all-box {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 70px;
+    }
+
+    .box-text {
+        width: 281px;
+        height: 104px;
+    }
+    .img-box{
+        margin-left: 0;
+    }
+
+    .button-1 {
+        width: 185px;
+        height: 58px;
+        margin-left: 500px;
+        margin-top: 0px;
+    }
+
+    h1 {
+        font-size: 52px;
+        line-height: 52px;
+        margin-top: 160px;
+        width: 350px;
+    }
+    
+    .improve {
+        width: 350px;
+    }
+    
+    .button-2 {
+        width: 185px;
+        height: 58px;
+    }
+    
+    .realise {
+        margin-top: 60px;
+        margin-left: 215px;
+    }
+    
+    
+    
+    .keyboard {
+        
+        width: 478px;
+        height: 425px;
+        border-radius: 20px;
+        margin-top: -310px;     
+        margin-left:450px;
+        clip-path: inset(0px 155px 0px 0 round 0px);
+        
+    }
+    .phone-keyboard{
+        margin-left: 0px;
+        width: 215px;
+        height: 320px;
+
+    }
+    .overlay{
+        width: 215px;
+        height: 320px;
+        margin-left: 0px;
+    }
+    
+    .glass-keyboard {
+        width: 445px;
+        height: 320px;
+        margin-left: 250px;
+    }
+    
+    
+    .typemaster {
+        margin-top: -100px;
+        margin-left: 300px;
+        width: 400px;
+        height: 78px;
+        
+    }
+    
+    
+    h2 {
+            margin-top: 450px;
+            display: flex;
+            justify-content: center;
+            text-align: start;
+    }
+    h4{
+    
+    display: flex;
+    justify-content: flex-start;
+    text-align:start;
+    }
+    
+    footer {
+        margin-top: 2100px;
+        margin-left: -1150px
+    }
+
+
+}
+
+
+
+@media screen and (min-width:1440px) {
+
+    .mobile{
+        display: none;
+    }
+    .tablet{
+        display: none;
+    }
+    .dekstop{
+        display: block;
+    }
+
+    body {
+        margin-left: 165px;
+        margin-top: 65px;
+
+    }
+
+    .button-1 {
+        width: 185px;
+        height: 60px;
+        margin-left: 930px;
+
+    }
+
+    .button-1:hover {
+        background-color: #162542;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+
+    h1 {
+        width: 445px;
+        height: 112px;
+        font-size: 56px;
+        line-height: 56px;
+    }
+
+    .improve {
+        width: 445px;
+        height: 78px;
+        font-size: 18px;
+        line-height: 26px;
+
+    }
+
+    .button-2 {
+        width: 185px;
+        height: 60px;
+    }
+
+    .button-2:hover {
+        cursor: pointer;
+        opacity: 0.75;
+    }
+    .box-header{
+        margin-left: 850px;
+        margin-top: -380px;
+    }
+    h2{
+        width: 255px;
+        height: 108px;
+        font-size: 32px;
+        line-height: 36px;
+        margin-top: 20px;
+    }
+    .typemaster{
+        width: 255px;
+        height: 130px;
+        line-height: 26px;
+        font-size: 16px;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    .gray-top{
+        width: 255px;
+        height: 236px;
+        border-radius: 20px;
+        border: none;
+        background-color:#E8EFF2;
+        margin-left: 1099px;
+        margin-top: -480px;
+        clip-path: inset(0 50px);
+
+    }
+    .keyboard {
+        width: 540px;
+        height: 480px;
+        border-radius: 20px;
+        margin-top: -310px;
+        margin-left: 575px;
+        clip-path: inset(0px 0px 0px 0 round 0px);
+
+    }
+    .gray-bot{
+        width: 255px;
+        height: 236px;
+        border-radius: 20px;
+        border: none;
+        background-color:#E8EFF2;
+        margin-left: -300px;
+        margin-top: 520px;
+    }
+    .phone-keyboard{
+        width: 255px;
+        height: 480px;
+        
+    }
+    .overlay{
+        width: 255px;
+        height: 480px;
+    }
+    .all-box{
+        margin-top: 160px;
+    }
+    .glass-keyboard{
+        width: 445px;
+        height: 480px;
+        margin-left: 282px;
+    }
+
+    h4{
+        width: 255px;
+        height: 56px;
+        font-size: 24px;
+        line-height: 28px;
+
+    }
+    .box-text{
+        width: 255px;
+        height: 130px;
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    footer{
+        margin-top: 1700px;
+        margin-left:-1550px;
+    }
+
+
+}
